@@ -1,0 +1,217 @@
+* {margin:0;
+padding:0;
+box-sizing: border-box;
+text-decoration: none;}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    height: 968px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-itens {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo-total{
+    display: flex;
+    flex-direction: row;
+    border-top: 0.5px solid white;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.conteudo2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.imagem {
+height: 700px;
+}
+
+.cabecalho2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-itens2 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.sobre-total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.5px solid white;
+}
+.sobre-tudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.imagem2 {
+    height: 890px;
+}
+.titulo {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 48px;
+}
+.subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.cabecalho3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;}
+.cabecalho-itens3 {
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;}
+
+.contato-total {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+    gap: 12px;
+}
+.tudo-contato{
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid white;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-texto {
+    display: flex;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 24px;
+    
+}
+.caixas-de-texto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap:12px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+.rede-texto {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.rede-twitter {
+    width: 24px;
+    height: 24px;
+}
+.rede-insta {
+    width: 24px;
+    height: 24px;
+}
+.cabecalho4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;}
+.cabecalho-itens4 {
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+    font-weight: 400;
+     font-size: 20px;}
+.nov-texto{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 24px;
+}
+.nov-tudo{
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid white;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalho5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;}
+.cabecalho-itens5 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;}
+.port-tudo {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid white;
+    gap: 32px;
+}
+.port1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 48px;
+}
+.port2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 48px;
+}
+.port-subtexto {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+.port-texto {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-direction: column;
+  text-align: center;
+}
